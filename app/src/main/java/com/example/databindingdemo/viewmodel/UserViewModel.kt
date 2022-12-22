@@ -6,7 +6,6 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.example.databindingdemo.model.Popularity
 
-
 class UserViewModel : ViewModel() {
     private val _name = MutableLiveData("John")
     private val _lastName = MutableLiveData("Doe")
